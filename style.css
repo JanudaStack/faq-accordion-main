@@ -26,11 +26,13 @@ body {
 }
 
 .accordion-outer {
+    padding: 1.5rem;
 }
 
 .accordion-inner {
     background-color: var(--white);
     padding: 1.5rem;
+    border-radius: 0.8rem;
 }
 
 .heading {
@@ -50,4 +52,14 @@ body {
 
 .accordion-list {
     margin-top: 1.2rem;
+}
+
+.accordion-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.accordion-bar {
+    display: flex;
 }
