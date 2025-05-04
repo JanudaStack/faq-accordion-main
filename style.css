@@ -23,6 +23,7 @@ body {
 
 .container {
     display: flex;
+    justify-content: center;
 }
 
 .accordion-outer {
@@ -33,6 +34,7 @@ body {
     background-color: var(--white);
     padding: 1.5rem;
     border-radius: 0.8rem;
+    max-width: 25rem;
 }
 
 .heading {
