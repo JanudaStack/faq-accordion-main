@@ -71,9 +71,11 @@ body {
 .accordion-title {
     color: var(--purple-950);
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .accordion-description {
     color: var(--purple-600);
+    font-size: var(--paragraph-font-size);
+    text-wrap: balance;
 }
