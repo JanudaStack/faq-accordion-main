@@ -83,3 +83,13 @@ body {
     text-wrap: balance;
     display: none;
 }
+
+.attribution {
+    text-align: center;
+    color: #fff;
+}
+
+.attribution a {
+    color: var(--purple-600);
+    text-decoration: none;
+}
